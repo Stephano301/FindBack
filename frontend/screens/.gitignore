@@ -1,0 +1,30 @@
+# Environnement virtuel (très lourd, se recrée avec requirements.txt)
+venv/
+.venv/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+
+# Secrets et configuration locale (ne jamais publier)
+.env
+*.env
+
+# Bases de données locales
+*.sqlite3
+*.db
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# Build Android / Buildozer
+.buildozer/
+bin/
+
+# Windows
+Thumbs.db
+Desktop.ini
